@@ -86,11 +86,16 @@ display: flex;
     display: none;
 }
 .informacoes-abas .informacao.selecionado{
-    display: block;
-  body::-webkit-scrollbar-thumb {
+  display: block;
   background-color: blue;    
   border-radius: 20px;       
   border: 3px solid orange;
+}
+
+.informacoes-abas .informacao.selecionado::-webkit-scrollbar-thumb {
+    background-color: blue;    
+    border-radius: 20px;       
+    border: 3px solid orange;
 }
 
 .informacoes-abas .sub-titulo{
